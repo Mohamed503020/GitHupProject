@@ -6,6 +6,134 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    * {
+     margin: 0%;
+     padding: 0;
+     text-decoration: none;
+     box-sizing: border-box;
+     list-style: none;
+ 
+ }
+ 
+ body {
+ 
+     width: 100%;
+     background-color: #eaeded;
+     box-sizing: border-box;
+ }
+ #product-info {
+     display: flex;
+     width: 95%;
+     margin: 0 auto
+ }
+ 
+ .item-image-parent {
+     margin-top: 50px;
+     order: 1;
+     width: 50%;
+     display: flex;
+ }
+ 
+ .item-info-parent {
+     margin-top: 50px;
+     margin-left: 50px;
+     order: 2;
+     width: 50%;
+ }
+ 
+ .item-list-vertical {
+     order: 1;
+     width: 10%;
+     overflow-y: auto;
+     margin-top: 50px;
+ }
+ 
+ .item-image-main {
+     order: 2;
+     width: 90%;
+     height: 100%;
+ }
+ 
+ .thumb-box {
+     width: 75%;
+     margin: 10px auto;
+     background: white;
+     border: 1px solid gray;
+ }
+ .thumb-box img {
+     width: 100%;
+     height: 70px;
+ }
+ 
+ .item-image-main img {
+     width: 100%;
+     height: 80%;
+     height: auto;
+ }
+ 
+ .thumb-box:hover {
+     cursor: pointer;
+     border-color: #e77600;;
+     box-shadow: 0px 1px 5px 1px #e77600;
+ }
+ 
+ .main-info h1{
+     font-size: 40px;
+     margin-bottom: 0;
+     font-weight: 400
+ }
+ 
+ .star-rating {
+     width: 70%;
+     color: gray;
+     font-size: 30px;
+     border-bottom: 2px solid rgba(194, 194, 194, 0.829);
+ }
+ 
+ .star-rating span {
+     color: gold;
+     
+ }
+ 
+ .main-info p {
+     font-size: 20px;
+     color: gray;
+     margin-bottom: 30px;
+ }
+ 
+ #price {
+     color: rgb(168, 14, 14);
+     font-size: 25px;
+ }
+ 
+ .change-color {
+     margin-bottom: 10px;
+ }
+ 
+ .change-color .thumb-box{
+     margin: 10px 10px 10px 0;
+     width: 50px;
+     height: 80px;
+     display: inline-block;
+ }
+ 
+ .change-size select {
+     padding: 5px 10px;
+     border-radius: 4px;
+     border-color: rgb(189, 189, 189);
+     margin-top: 10px;
+     font-size: 20px;
+ 
+ }
+ 
+ .description ul {
+     padding-left: 17px;
+     padding-top: 10px;
+     font-size: 25px;
+     line-height: 3rem;
+ }
+ </style>
 <body>
     <section id="product-info">
 
